@@ -84,7 +84,7 @@ While the existing Fetch API works, it has three distinct limitations:
 1. The operations are always async.
 2. Relative paths are rooted at the document's base URL
    rather than that of the module from which it's being fetched.
-3. The fetch starts only when the the JavaScript is being executed.
+3. The fetch starts only when the JavaScript is being executed.
 
 If the Import Bytes proposal proceeds while this proposal does not,
 importing text files will require an otherwise unnecessary and clumsy step.
